@@ -1,1 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;900&display=swap');
 
+/* font-family: 'Poppins', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* width: min-content; */
+    background-color: #CCD5FF;
+    /* overflow-x: hidden; */
+}
+header {
+    color: white;
+    /* width: fit-content; */
+    height: 61rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem 1rem 1rem;
+    margin: auto;
+    background-color: #231F20;
+    
+    /* align-items: center; */
+
+}
+
+h1 {
+    display: flex;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 55px;
+    color: #F46197;    
+    justify-content: center;
+    margin: auto;
+    
+}
+header section p {
+    display: flex;
+    width:85%;    
+    padding: 0rem 0rem 7.5rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 23px;
+    margin: auto; 
+    
+}
+header section h6 {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 0rem 0 5rem 0rem;
+    font-size: 20px;
+    color: #F46197;
+    justify-content: center;
+    
+
+}
+header section .lenguajes {
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-self: center;
+    width: 65%;
+    margin: auto;
+    padding: 0 0rem 5rem 0rem;
+    justify-content: center;
+
+}
+header section .javascript {
+    background-image: url(/assets/lenguajes/Unofficial_JavaScript_logo_2.svg.png);
+    background-size: 6rem 6rem;
+    width: 7rem;
+    height: 6rem;
+    border-radius: 10px;
+
+}
+header section .p5 {
+    background-image: url(/assets/lenguajes/images.png);
+    background-size: 6rem 6rem;
+    width: 7rem;
+    height: 6rem;
+    border-radius: 10px;
+
+}
+.section1, .section2{
+   
+    /* width: fit-content; */
+    /* height: 61rem; */
+    /* display: flex; */
+   
+    /* padding: 4rem 1rem 1rem 1rem; */
+    /* margin: auto; */
+    
+
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0rem 1rem 0rem;
+    /* width: 85%; */
+}
+.section1 p,
+.section2 p {
+    display: flex;
+    width: 80%;
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin: auto;
+    color: #000000;
+    justify-content: center;
+}
+.section1 div,
+.section2 div {
+    display: flex;
+    flex-direction: row;
+    float: center;
+    gap: 10px;
+    margin: auto;
+    width: 85%;
+    
+    padding: 2rem 0rem 0rem 0rem;
+}
+.section1 div .nivel1{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+   margin: auto;
+
+}
+
+.section1 div .nivel2{
+    display: flex;
+    flex-direction: column;
+   width: 15rem;
+    height: 15rem;
+    margin: auto;
+}
+.section1 div .nivel3{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+}
+.section2 div .nivel1{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+   margin: auto;
+}
+.section2 div .nivel2{
+    display: flex;
+    flex-direction: column;
+   width: 15rem;
+    height: 15rem;
+    margin: auto;
+}
+.section2 div .nivel3{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+}
+img{
+    width: 16rem;
+    height: 15rem;
+    padding: 0;
+    margin: auto;
+}
+footer{
+    padding: 10rem 0 10rem 0;
+    width: min-content;
+    display: flex;
+    margin: auto;
+    
+}
+footer nav{
+    display:flex;
+    
+    font-family:'Poppins', sans-serif ;
+    font-size: 24px;   
+    
+   
+
+    width:100%;
+    height:max-content;
+    background-color: #a5b2ee6f;
+    
+    margin: auto;
+    padding: 1.5rem 1.5rem 1.5rem ;
+    align-self: center;
+    align-items: center;
+    float: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 50px;
+}
+footer nav div{
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+}
+nav .contenedor{
+    display: flex;
+    margin: auto;
+    width:105%;
+    height:max-content;
+    padding: 1rem 1.5rem  1rem;
+    border-style: solid  ;
+    border-radius: 50px;
+    border-color: #CCD5FF;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #000000;
+}
+.repositorio{
+    font-family: 'Poppins', sans-serif;;
+margin: auto;
+text-decoration: none;
+
+}
+a:hover{
+    color: #F46197;
+}
+
+@media (max-width: 700px) {
+    header{
+        height: 80rem;
+    }
+    .section1 div,
+.section2 div{
+    flex-direction: column;
+}
+    
+}
