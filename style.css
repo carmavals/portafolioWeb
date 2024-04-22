@@ -1,242 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    /* width: min-content; */
-    background-color: #CCD5FF;
-    /* overflow-x: hidden; */
-}
-header {
-    color: white;
-    /* width: fit-content; */
-    height: 61rem;
-    display: flex;
-    flex-direction: column;
-    padding: 4rem 1rem 1rem 1rem;
-    margin: auto;
-    background-color: #231F20;
-    
-    /* align-items: center; */
-
-}
-
-h1 {
-    display: flex;
-    width: 50%;
-    font-family: 'Poppins', sans-serif;    
-    font-size: 55px;
-    color: #F46197;    
-    justify-content: center;
-    margin: auto;
-    
-}
-header section p {
-    display: flex;
-    width:85%;    
-    padding: 0rem 0rem 7.5rem 0rem;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-    font-size: 23px;
-    margin: auto; 
-    
-}
-header section h6 {
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    padding: 0rem 0 5rem 0rem;
-    font-size: 20px;
-    color: #F46197;
-    justify-content: center;
-    
-
-}
-header section .lenguajes {
-
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    align-self: center;
-    width: 65%;
-    margin: auto;
-    padding: 0 0rem 5rem 0rem;
-    justify-content: center;
-
-}
-header section .javascript {
-    background-image: url(/assets/lenguajes/Unofficial_JavaScript_logo_2.svg.png);
-    background-size: 6rem 6rem;
-    width: 7rem;
-    height: 6rem;
-    border-radius: 10px;
-
-}
-header section .p5 {
-    background-image: url(/assets/lenguajes/images.png);
-    background-size: 6rem 6rem;
-    width: 7rem;
-    height: 6rem;
-    border-radius: 10px;
-
-}
-.section1, .section2{
    
-    /* width: fit-content; */
-    /* height: 61rem; */
-    /* display: flex; */
-   
-    /* padding: 4rem 1rem 1rem 1rem; */
-    /* margin: auto; */
+    background-color: rgb(238, 214, 214);
     
-
-    display: flex;
-    flex-direction: column;
-    padding: 4rem 0rem 1rem 0rem;
-    /* width: 85%; */
-}
-.section1 p,
-.section2 p {
-    display: flex;
-    width: 80%;
-    
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-    font-size: 1.5rem;
-    margin: auto;
-    color: #000000;
-    justify-content: center;
-}
-.section1 div,
-.section2 div {
-    display: flex;
-    flex-direction: row;
-    float: center;
-    gap: 10px;
-    margin: auto;
-    width: 85%;
-    
-    padding: 2rem 0rem 0rem 0rem;
-}
-.section1 div .nivel1{
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 15rem;
-   margin: auto;
 
 }
 
-.section1 div .nivel2{
-    display: flex;
-    flex-direction: column;
-   width: 15rem;
-    height: 15rem;
-    margin: auto;
+header{
+    display: flex;   
+    flex-direction: column;  
+    background-color:#ff0000 ;
+    color: rgb(0, 0, 0);   
+    width: 100%;
+    height: 100%;
 }
-.section1 div .nivel3{
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 15rem;
-    margin: auto;
-}
-.section2 div .nivel1{
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 15rem;
-   margin: auto;
-}
-.section2 div .nivel2{
-    display: flex;
-    flex-direction: column;
-   width: 15rem;
-    height: 15rem;
-    margin: auto;
-}
-.section2 div .nivel3{
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 15rem;
-    margin: auto;
-}
-img{
-    width: 16rem;
-    height: 15rem;
-    padding: 0;
-    margin: auto;
-}
-footer{
-    padding: 10rem 0 10rem 0;
-    width: min-content;
-    display: flex;
-    margin: auto;
-    
-}
-footer nav{
-    display:flex;
-    
-    font-family:'Poppins', sans-serif ;
-    font-size: 24px;   
-    
-   
 
-    width:100%;
-    height:max-content;
-    background-color: #a5b2ee6f;
+header .yo{
+    border-radius: 7rem;
+    max-width:100%;
+    max-height: 11rem;
+    padding: 1rem;
+    position:relative;
+    top: 6rem;
+    left: 15rem;  
     
-    margin: auto;
-    padding: 1.5rem 1.5rem 1.5rem ;
-    align-self: center;
-    align-items: center;
-    float: center;
-    align-content: center;
-    text-align: center;
-    border-radius: 50px;
 }
-footer nav div{
-    display: flex;
-    flex-direction: column;
-    /* width: 40%; */
+
+
+
+header h1 {
+    padding: 0 1rem;    
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 700px;
+  font-size: 80px;
+    
 }
-nav .contenedor{
-    display: flex;
-    margin: auto;
-    width:105%;
-    height:max-content;
-    padding: 1rem 1.5rem  1rem;
-    border-style: solid  ;
-    border-radius: 50px;
-    border-color: #CCD5FF;
+
+header span {
+   padding: 33px;
+    color:rgb(238, 214, 214) ;
+    font-family: "Quattrocento Sans", sans-serif;
+    
+
+    
+}
+nav{
+    position: relative;
+    bottom: 15rem;
+    font-family: "Quattrocento Sans", sans-serif;
+    padding: 1rem;
 }
 ul{
+    display: none;
+  }
+  
+  input:checked  ~ ul{
+    display:block;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid rgb(238, 214, 214);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  label:hover{
+    background: #ff0000;
+  }
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  input:checked ~ label {
+    background: #ff0000; 
+  }
+  
+  ul{
+    margin-top:0;
+    padding: 0;
+    width: 200px;    
+  
+  }
+  
+  
+  li {
+    display: block;
+    background: rgb(238, 214, 214);
+    margin: 0;
+    padding: 10px;
     list-style: none;
-}
-a{
-    color: #000000;
-}
-.repositorio{
-    font-family: 'Poppins', sans-serif;;
-margin: auto;
+    border-bottom: 1px solid #ff0000;
+  }
+  
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  li:hover {
+    filter: brightness(110%);
+  }
+
+  a {
 text-decoration: none;
+color: #ff0000;
+  }
+  .lf{
+    text-align: center;
+  }
+
+  .lf h2{
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: small;
+   text-align: center;
+   padding: 1rem 0;
+  }
+
+  .lf .cuadritos{
+width: 10%;
+height: 6%;
+align-items: center;
+  }
+
+  footer{
+    font-family: "Quattrocento Sans", sans-serif;
+font-size: smaller;
+text-align: center;
+padding: 1.5rem 0;
+  }
+
+
+
+
+  
+  @media only screen and (min-width: 829px) {
+nav{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: .5rem;
+  
+}
+
+input {
+  display: contents;
+}
+
+label {
+  
+  display: none; 
+}
+
+
+
+ul{
+  display: contents;
 
 }
-a:hover{
-    color: #F46197;
+  }
+
+@media only screen and (min-width: 830px){
+header .yo{
+  position: relative;
+  top: 35rem;
+  left: 97rem;
+
 }
 
-@media (max-width: 700px) {
-    header{
-        height: 80rem;
-    }
-    .section1 div,
-.section2 div{
-    flex-direction: column;
-}
+
+
+
+
+  
+
+   nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
     
+    padding: 0 18rem;
+    font-size: 15px;
+    width: 100%;
+    /* position: relative; */
+    /* top: .5rem; */
+    
+  }
+  li{
+  padding: 1.5rem;  
+  }
+  input {
+    display: contents;
+  }
+  
+  label {
+    
+    display: none; 
+  }
+  
+  
+  
+  ul{
+    display: contents; 
+
+}
+
+.lf{
+  width: 50%;
+  position: relative;
+ left: 30rem;
+}
+
+
+.cuadritos{
+  width: 1rem;
+  height: 1rem;
+}
 }
