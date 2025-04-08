@@ -1,64 +1,93 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-    <title>Mayra Carbajal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayra Carbajal Silva</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
+  <header class="hero">
+    <video autoplay muted loop id="bg-video">
+      <source src="assets/1000011825.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay">
+      <h1>mayra<br/>carbajal<br/>silva</h1>
+      <p>teatro / tecnología / identidad</p>
+    </div>
+  </header>
 
-
-        <h1>Mayra Carbajal Silva</h1>
-        <div>
-          <a href="https://www.instagram.com/carmavals/"><img class="yo" src="./assets/lenguajes/ave.png" alt=""></a> 
-           
-
-        </div>
-
-
-    </header>
-
-     <!-- <span>Artista intermedial</span> -->
-        
-            <nav>
-                <input type="checkbox" id="menu">
-                <label for="menu"> ☰ </label>
-            <ul>
-                <li><a href="drama.html">DRAMATURGIA</a></li>
-                <li><a href="typ.html">TEATRO/PERFORMANCE</a></li>
-                <li><a href="ilustracion.html">ILUSTRACIÓN</a></li>
-                <li><a href="experi.html">EXPERIMENTACIONES</a></li>
-                <li><a href="arteelec.html">ARTE ELECTRÓNICO</a></li>
-                <li><a href="anonima.html">Anonima La Colectiva</a></li>
-                <li><a href="info.html">INFO</a></li>
-            </ul>
-        
-        
-    </nav>
-
-    <section class="lf">
-        <h2>LENGUAJES Y FRAMEWORKS</h2>
-
-        <img class="js cuadritos" src="./assets/lenguajes/jspng.png" alt="">
-        <img class="p5 cuadritos " src="./assets/lenguajes/p5.png" alt="">
-        <img class="java cuadritos" src="./assets/lenguajes/java.png" alt="">
-        <img class="ccc cuadritos" src="./assets/lenguajes/ccc.png" alt="">
-        <img class="processing cuadritos" src="./assets/lenguajes/processing.png" alt="">
+  <main>
+    <section class="intro">
+      <p>Artista escénica e intermedial. Investigo cómo se cruzan los cuerpos, los datos y los territorios. Desarrollo experiencias híbridas entre lo digital y lo performativo.</p>
     </section>
 
+    <section class="proyectos">
+      <!-- <h2>Exploraciones en el teatro</h2> -->
 
-    <footer>
-        <span>
-            Last updated April 2024 <br>
-            This website was designed by <a href="https://www.instagram.com/carmavals/">@carmavals</a>
-        </span>
-    </footer>
-    
+      <div class="grid">
+
+
+        <div class="proyecto-horizontal">
+          <video autoplay muted src="assets/MVI_9689.MP4"></video>
+          <div class="contenido">
+          <h3>oct-dic(2024)</h3>
+           <a href="https://carmavals.github.io/octdic/" target="_blank">ir al proyecto →</a> 
+           <p>Diario sonoro que recopila sonidos grabados durante tres meses en el 2024.Fue presentado como sesión de escucha.</p>
+         </div>
+        </div>
+        <div class="proyecto-horizontal">
+          <img src="assets/LOG story 4x5(1).jpg" alt="skins_code" />
+          <div class="contenido">
+          <h3>skins_code</h3>
+          <p>Console.log(skins_code) es una plataforma web que usa un cifrador programado para ocultar palabras moviendo las letras que la conforman determinados espacios en el abecedario. Así ha servido para albergar una historia que puede o no ser teatral pero que explora dentro de la autoficción y que se encuentra oculto y debe ser descifrado con la ayuda de pistas. Esta profundiza en en la construcción de la identidad a través del cuerpo y del trabajo que realiza la autora. 
+
+            La página también cuenta con un canvas de p5.js que permite que el espectador o usuario usen el espacio como un lienzo vacío lo que apoya la idea de que la autoficción crea diferentes identidades con respecto a cómo se presente.
+            </p>
+          <a href="https://carmavals.github.io/skinscode/src/" target="_blank">explorar →</a>
+        </div>
+      </div>
+                <div class="proyecto-horizontal">
+          <img src="assets/image.png" alt="Algo" />
+          <div class="contenido">
+          <h3>Algo que parecía bueno, pero no lo fue</h3>
+          <p>Primer proyecto escénico de Anonima la colectiva. 
+            Obra de autoteatro que cuenta la historia de dos personas en una Lima distópica del 2034 en una cita a ciegas promovida por el Estado. Ahí deberán enfrentarse a un pasado en común. </p>
+        </div>
+      </div>
+        <div class="proyecto-horizontal">
+          <img src="assets/WhatsApp Image 2022-12-21 at 11.49.57 PM.jpg" alt="Agnición Total" />
+          <div class="contenido">
+          <h3>Agnición Total</h3>
+          <p>Agnición total es un proyecto autoteatral, 
+            el cual usa herramientas sonoras para 
+            indicar a los participantes las acciones que deben tomar 
+            y los pasos a seguir. Así, cada participante toma un papel en la historia para representar. 
+            La obra cuenta con un texto dramático escrito y adaptado para el proyecto y una página web que sirve de medio 
+            para la reproducción de los audios. Con todo esto junto, la obra cuenta la historia del encuentro de un hombre con su versión en el futuro
+            donde descubrirá una terrible verdad.
+          </p>
+          <!-- <a href="https://anonimalacolectiva.github.io/agnicionTotal/" target="_blank">ir al proyecto →</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="colectiva">
+      <div>
+      <h2>Anónima la Colectiva</h2>
+      <p>Fundadora de un colectivo de mujeres que experimenta con herramientas digitales en artes escénicas.</p>
+   <div class="contenido">
+      <img src="assets/la rubia sin fondo(1).png" alt="">
+    </div>
+  </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Todos los derechos reservados. Mayra Carbajal Silva.</p>
+    <a href="https://www.instagram.com/carmavals/">@carmavals</a>
+    <p>mayravcs96@gmail.com</p>
+  </footer>
 </body>
-
 </html>
